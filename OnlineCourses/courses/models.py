@@ -1,6 +1,6 @@
-# courses/models.py
 from django.db import models
 
+# Create your models here.
 class Course(models.Model):
     DAYS_OF_WEEK = [
         ('Monday', 'Monday'),
