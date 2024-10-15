@@ -1,8 +1,18 @@
 # Setup environment
+## linux
+```bash
+export SECRET_KEY=secret
+```
 
+## windowns
+```
+set SECRET_KEY=secret
+```
+
+## install require lib
 ```bash
 cd courseproject
-export SECRET_KEY=secret
+pip install django
 pip install -r requirements.txt
 pip install django-crispy-forms
 pip install crispy-bootstrap5
