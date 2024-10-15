@@ -8,3 +8,4 @@ pip install django-crispy-forms
 pip install crispy-bootstrap5
 python manage.py runserver
 ```
+http://127.0.0.1:8000/ofv/
