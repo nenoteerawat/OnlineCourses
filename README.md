@@ -1,7 +1,7 @@
 # Setup environment
 
 ```bash
-cd crudproject
+cd courseproject
 export SECRET_KEY=secret
 pip install -r requirements.txt
 pip install django-crispy-forms

@@ -1,12 +1,11 @@
 from django.db import models
 
-class Orders(models.Model):
+class Courses(models.Model):
     oid = models.IntegerField(primary_key=True)
-    fname = models.CharField(max_length=20)
-    lname = models.CharField(max_length=20)
+    name = models.CharField(max_length=20)
     price = models.FloatField()
     mail = models.EmailField()
     addr = models.CharField(max_length=50)
 
     def __str__(self):
-        return f'{self.fname}'
+        return f'{self.name}'

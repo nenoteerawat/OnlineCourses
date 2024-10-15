@@ -19,7 +19,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'crudapp',
+    'courseapp',
     'crispy_forms',
     'crispy_bootstrap5',
 ]
@@ -36,7 +36,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'crudproject.urls'
+ROOT_URLCONF = 'courseproject.urls'
 
 TEMPLATES = [
     {
@@ -54,7 +54,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'crudproject.wsgi.application'
+WSGI_APPLICATION = 'courseproject.wsgi.application'
 
 
 # Database
