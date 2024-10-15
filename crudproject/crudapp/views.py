@@ -2,7 +2,6 @@ from django.shortcuts import redirect, render
 from .forms import OrderForm
 from .models import Orders
 
-# Create your views here.
 def orderFormView(request):
     form = OrderForm()
     if request.method == 'POST':
