@@ -1,5 +1,5 @@
 /courseproject/.env
 /courseproject/courseproject/__pycache__
 /courseproject/courseapp/__pycache__
-/courseproject/courseapp/migrations
+# /courseproject/courseapp/migrations
 .venv
